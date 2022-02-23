@@ -3,7 +3,7 @@ services:
   webdesktop:
     image: kasmweb/core-ubuntu-bionic
     environment:
-        VNC_PW:19881220..
+        VNC_PW: 19881220..
     ports:
       - "6901:6901"
     restart: unless-stopped
