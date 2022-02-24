@@ -1,11 +1,7 @@
-version: '2'
+version: '1'
 services:
   webdesktop:
     image: kasmweb/centos-7-desktop:1.10.0
-    environment:
-        VNC_PW: 19881220..
     ports:
-      - "8081:8081"
-      - "6901:6901"
-      - "4902:4902"
+      - "6901:6901
     restart: always
