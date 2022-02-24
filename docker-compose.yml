@@ -3,5 +3,5 @@ services:
   webdesktop:
     image: kasmweb/centos-7-desktop:1.10.0
     ports:
-      - "6901:6901
+      - "6901:6901"
     restart: always
