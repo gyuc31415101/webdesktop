@@ -5,7 +5,6 @@ services:
     environment:
         VNC_PW: 19881220..
     ports:
-      - "4901:4901"
-      - "5901:5901"
+      - "8081:8081"
       - "6901:6901"
     restart: always
