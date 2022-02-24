@@ -7,4 +7,5 @@ services:
     ports:
       - "8081:8081"
       - "6901:6901"
+      - "4902:4902"
     restart: always
