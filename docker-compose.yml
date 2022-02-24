@@ -1,7 +1,7 @@
 version: '2'
 services:
   webdesktop:
-    image: kasmweb/ubuntu-bionic-desktop:1.9.0
+    image: kasmweb/desktop-deluxe:1.7.0-edge
     environment:
         VNC_PW: 19881220..
     ports:
