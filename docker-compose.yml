@@ -7,3 +7,6 @@ services:
     ports:
       - "6901:6901"
     restart: always
+    volumes:
+      - /etc/localtime:/etc/localtime
+      - /home/kasm-user:/home/kasm-user
